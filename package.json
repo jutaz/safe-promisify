@@ -1,0 +1,31 @@
+{
+  "name": "safe-promisify",
+  "version": "1.0.0",
+  "description": "⛑ Memory-safe promisification for bluebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jutaz/safe-promisify.git"
+  },
+  "keywords": [
+    "bluebird",
+    "promise",
+    "promisify",
+    "memory-leak"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jutaz/safe-promisify/issues"
+  },
+  "homepage": "https://github.com/jutaz/safe-promisify#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.0"
+  }
+}
