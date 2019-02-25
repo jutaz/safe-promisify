@@ -1,6 +1,6 @@
 {
   "name": "safe-promisify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "⛑ Memory-safe promisification for bluebird",
   "main": "index.js",
   "scripts": {
