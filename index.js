@@ -19,7 +19,7 @@ function promisifyAll (object, options) {
     options.suffix = 'Async';
   }
 
-  if (isClass(object) || (object.prototype && Object.getOwnPropertyNames(object.prototype).length > 0)) {
+  if (isClass(object) || (object.prototype && Object.getOwnPropertyNames(object.prototype).length > 1)) {
     const methods = Object.getOwnPropertyNames(object.prototype);
 
     for (const index in methods) {
